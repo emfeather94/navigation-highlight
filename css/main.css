@@ -36,8 +36,12 @@ h2 {
   font-family: "Sigmar One", cursive;
   font-size: 1.875rem;
   padding: .5em .25em;
-  margin: 0;
+  margin: .3em 0 0;
   display: inline-block;
+}
+
+main {
+  margin: .2em;
 }
 
 .nav {
@@ -45,15 +49,16 @@ h2 {
   list-style-type: none;
   font-family: Georgia, serif;
   font-weight: 100;
-  font-size: 1rem;
+  font-size: 1.06rem;
   padding: 0 .5em;
   margin: .3em 0 0;
+  max-width: 25rem;
 }
 
 .nav a {
   color: #fff;
   text-decoration: none;
-  padding: .5em;
+  padding: .4em .5em;
   background-color: #b2a212;
   text-align: center;
   border-radius: 4px;
@@ -67,7 +72,7 @@ h2 {
   background-color: #cc1465;
   color: #fff;
   border-color: #cc1465;
-  padding: .5em;
+  padding: .4em .5em;
   text-align: center;
   border-radius: 4px;
 }
@@ -96,10 +101,10 @@ p strong {
 }
 
 footer {
-  font-size: .75rem;
+  font-size: .8rem;
   background-color: #ffe500;
   margin: .3em 0 0;
   text-align: center;
-  padding: 1.5em;
+  padding: 1.2em;
   max-width: 25rem;
 }
