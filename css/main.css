@@ -1,13 +1,63 @@
 html {
   box-sizing: border-box;
-  vine-height: 1.5;
-  background-color: #eee9de;
-  font-family: Lato, sans-serif;
-  color: #333;
-  vertical-align: middle;
-  padding-bottom: 1em;
+  line-height: 1.5;
+  background-color: none;
+  font-family: Georgia, serif;
+  color: #2f2d13;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  background-color: #ffe500;
+  padding: 0 0 1em;
+}
+
+h1 {
+  background-color: #ffe500;
+  color: #cc1465;
+  font-family: Sigmar One, cursive;
+  font-size: 3rem;
+  text-align: center;
+  margin: 0;
+  padding: 0.2em .2em;
+  display: block;
+}
+
+.nav {
+  text-align: center;
+  list-style-type: none;
+  text-align: center;
+  font-family: Georgia, serif;
+  font-size: 1.125rem;
+  padding: 0;
+  margin: 0;
+}
+
+.nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: .5rem .75rem;
+  background-color: #b2a212;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.nav li {
+  display: inline-block;
+}
+
+.nav a:hover {
+  background-color: #b20953;
+  color: #fff;
+  border-color: #b20953;
+  padding: .5rem .75rem;
+  text-align: center;
+  border-radius: 4px;
 }
