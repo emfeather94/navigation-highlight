@@ -21,25 +21,24 @@ header {
 h1 {
   background-color: #ffe500;
   color: #cc1465;
-  font-family: Sigmar One, cursive;
+  font-family: "Sigmar One", cursive;
   font-size: 3rem;
   text-align: center;
   margin: 0;
-  padding: 0.2em .2em;
+  padding: .2em;
   display: block;
 }
 
 h2 {
   color: #cc1465;
-  font-family: Sigmar One, cursive;
+  font-family: "Sigmar One", cursive;
   font-size: 1.875rem;
-  padding: .2em .5em .3em
+  padding: .2em .5em .3em;
 }
 
 .nav {
   text-align: center;
   list-style-type: none;
-  text-align: center;
   font-family: Georgia, serif;
   font-weight: 100;
   font-size: 1.125rem;
@@ -69,13 +68,19 @@ h2 {
   border-radius: 4px;
 }
 
+img {
+  padding: .2em .5em .3em;
+}
+
 p {
   font-weight: 100;
   padding: 0 .75em;
 }
+
 p strong {
   font-weight: 900;
 }
+
 footer {
   font-size: .75rem;
   background-color: #ffe500;
