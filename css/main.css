@@ -1,0 +1,13 @@
+html {
+  box-sizing: border-box;
+  vine-height: 1.5;
+  background-color: #eee9de;
+  font-family: Lato, sans-serif;
+  color: #333;
+  vertical-align: middle;
+  padding-bottom: 1em;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
